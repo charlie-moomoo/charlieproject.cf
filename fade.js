@@ -4,4 +4,7 @@ function fadein(){
 oDiv = document.getElementById('projects'); 
 oDiv.style.filter = 'alpha(opacity:'+i+')'; 
 oDiv.style.opacity = i / 100;
+setTimeout(function(){
+void(0);
+},30);
 }
