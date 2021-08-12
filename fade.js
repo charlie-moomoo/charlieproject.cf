@@ -1,5 +1,5 @@
 function fadein(){
-  var i,alpha,oDiv
+  var i
   for(i=100;i<-1;i++2){
 oDiv = document.getElementById('projects'); 
 oDiv.style.filter = 'alpha(opacity:'+i+')'; 
